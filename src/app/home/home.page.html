@@ -1,0 +1,27 @@
+<ion-headerio>
+  <ion-toolbar color="dark">
+    <ion-title class="ion-text-center" color="light">
+      INTO THE WILD
+    </ion-title>
+  </ion-toolbar>
+</ion-headerio>
+
+<ion-content class="auth-form" style="--background: var(--ion-eris-background);">
+  <ion-grid class="ion-text-center">
+    <ion-row>
+      <img src="/assets/icon/ITW.png" class="center">
+      <br>
+    </ion-row>
+    <ion-row class="ion-padding">
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/signup']" expand="block" size="large" color="primary">Sign up</ion-button>
+
+        <h4 color="light">or</h4>
+        <h4 color="light"> Already a user?</h4>
+
+        <ion-button [routerLink]="['/login']" expand="block" size="large" color="danger">Log In</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
